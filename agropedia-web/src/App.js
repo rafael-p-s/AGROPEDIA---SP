@@ -1,13 +1,8 @@
-import './index.css';
-import './tela_principal.css';
+import "./index.css";
+import "./tela_principal.css";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Test</h1>
-      <h3>Test</h3>
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
