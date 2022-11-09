@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from "./pages/principal";
+import Home from "./pages/main";
 import Information from "./pages/Information";
 
 // CONFIGURANDO ROTAS DAS PAGINAS
@@ -9,7 +9,7 @@ export default function App(){
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="principal" element = {<principal />} />
+        <Route path="main" element = {<main />} />
         <Route path="information" element = {<Information />} />
       </Routes>
     </BrowserRouter>
